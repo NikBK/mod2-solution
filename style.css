@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	text-align:center;
+}
+section {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	float: left;
+	background-color: lightgray;
+	border: 2px solid black;
+}
+div.hi1 {
+	position: relative;
+	text-align:center;
+	float:right;
+	border: 2px solid black;
+	width:90px;
+	height:25px;
+	background-color: pink;
+}
+div.hi2 {
+	position: relative;
+	text-align:center;
+	float:right;
+	border: 2px solid black;
+	width:90px;
+	height:25px;
+	background-color: red;
+	color: white;
+}
+div.hi3 {
+	position: relative;
+	text-align:center;
+	float:right;
+	border: 2px solid black;
+	width:90px;
+	height:25px;
+	background-color: yellow;
+}
+p {
+	margin-left:10px;
+}
