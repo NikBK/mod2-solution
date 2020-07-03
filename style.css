@@ -2,49 +2,57 @@
 	box-sizing: border-box;
 }
 @media (min-width: 992px) {
-	.col-lg-4, .leave {
-		width: 30%;	
+	.col-lg-4 {
+		margin: 5px;
+		width: 32%;	
 		float: left;	
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6 {
-		width: 46%;	
+		margin: 5px;
+		width: 48.5%;	
 		float: left;	
 	}
-	.leave {
-		width: 95%;
-		height: 80px;
-		margin-top: 120px;
+	.col-md-12 {
+		margin: 5px;
+		width: 98%;
+		float: left;
 	}
 }
 @media (max-width: 767px) {
-	.col-sm-12, .leave {
-		width: 95%;
+	.col-sm-12 {
+		margin: 5px;
+		width: 98%;
 		float: left;		
 	}
 }
 h1 {
 	text-align: center;
+	margin: 30px;
+	font-family: courier, arial, helvetica;
+	font-size: 40px;
+}
+.row {
+	width: 100%;
 }
 section {
-	margin-left: 15px;
-	margin-bottom: 15px;
-	margin-right: 5px;
-	padding-left: 10px;
-	padding-bottom: 10px;
+	margin: 0px;
+	padding: 0px;
 	border: 1px solid black;
 	background-color: lightgray;
 	position: relative;
 }
 p#one, p#two, p#three {
+	margin: 0px;
 	width: 90px;
 	height: 25px;
 	border: 1px solid black;
 	text-align: center;
 	float: right;
-	position: relative;
-	top: -15.5px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 #one {
 	background-color: pink;
@@ -57,5 +65,7 @@ p#one, p#two, p#three {
 	background-color: yellow;
 }
 p.para {
-	padding-top: 15px;
+	margin: 0px;
+	padding: 15px;
+	padding-top: 25px;
 }
