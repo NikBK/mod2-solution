@@ -8,10 +8,14 @@ div>h5 {
 div.hi>p {
 	background-color: orange;
 	padding: 10px 10px 10px 10px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 h6 {
 	font-size: 1.3em;
 }
 #me {
 	background-color: maroon;
+	margin-left: 15px;
+	margin-right: 15px;
 }
